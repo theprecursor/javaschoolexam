@@ -13,12 +13,15 @@ public class Spreadsheet {
      * @param inputData unprocessed table cells
      */
 	
-	//There is a nested loop that checks the value at 
-	//each position in the given table. It replaces the 
-	//value in the table with the number at that position. 
-	//If there is a formula involving the numbers from the 
-	//table positions, the corresponding operation is performed 
-	//accordingly
+	//There is a first loop that takes care of inspecting
+	//the array, performing a split to separate its elements. 
+	//After splitting, it handles different scenarios, applying
+	//conditionals where, if it starts with an equal sign, it 
+	//extracts the number from the specified position. If there 
+	//is no equal sign, it checks the positions one by one. 
+	//If no equal sign is found, it leaves the number unchanged. 
+	//Then, depending on the specified positions after the equal sign, 
+	//the corresponding scenario is executed.
 	
     private Map<String, Integer> cellValues = new HashMap<>();
 	
