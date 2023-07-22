@@ -12,7 +12,7 @@ The exam includes 3 tasks to be done. Please, choose 3 of 5: [Calculator](/tasks
 ### Result ###
 
 * Author name : Moises Moreno Robles
-* Pipeline status: {PUT A BADGE HERE}
+* Pipeline status: [![Bitbucket Pipelines](https://img.shields.io/bitbucket/pipelines/Moises/javaschoolexam/main.svg?label=Bitbucket%20Pipelines&style=flat-square)](https://bitbucket.org/Moises/javaschoolexam/addon/pipelines/home#!/)
 
 
 ### How to start?  ###
