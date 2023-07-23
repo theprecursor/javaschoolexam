@@ -1,7 +1,5 @@
 package com.tsystems.javaschool.tasks.calculator;
 
-import java.util.List;
-
 public class Calculator {
 
     /**
@@ -13,10 +11,8 @@ public class Calculator {
      * @return string value containing result of evaluation or null if statement is invalid
      */
     public String evaluate(String statement) {
-    	String result = "";
-    	
-		
-		return result;
-	}
+        // TODO: Implement the logic here
+        return "";
+    }
 
 }

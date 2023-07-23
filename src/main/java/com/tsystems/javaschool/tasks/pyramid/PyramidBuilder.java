@@ -14,6 +14,17 @@ public class PyramidBuilder {
      * @return 2d array with pyramid inside
      * @throws {@link CannotBuildPyramidException} if the pyramid cannot be build with given input
      */
+	
+	//First, there is a loop where it searches if there 
+	//is any null data in the list but in the case that 
+	//there is any number (Integer type) that is null, 
+	//it will throw the exception CannotBuildPyramidException, 
+	//then the size of the list is stored in an int variable
+	//and the height of the pyramid is stored in another variable, 
+	//which it performs with a calculatePyramidHeight method in the 
+	//variable, the total size of the list is taken, the list is ordered, 
+	//a loop is used where it creates the priamide from 
+	//the two-dimensional array of type int to create the pyramid
     public int[][] buildPyramid(List<Integer> inputNumbers) {
     	 for(Integer numbers : inputNumbers) {
     		 if(numbers == null) {
